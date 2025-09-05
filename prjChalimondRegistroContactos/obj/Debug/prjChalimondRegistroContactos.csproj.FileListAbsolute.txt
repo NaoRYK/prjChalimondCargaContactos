@@ -1,0 +1,11 @@
+D:\Escritorio\prjChalimondRegistroContactos\bin\Debug\prjChalimondRegistroContactos.exe.config
+D:\Escritorio\prjChalimondRegistroContactos\bin\Debug\prjChalimondRegistroContactos.exe
+D:\Escritorio\prjChalimondRegistroContactos\bin\Debug\prjChalimondRegistroContactos.pdb
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.csproj.AssemblyReference.cache
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.formCargarContacto.resources
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.Properties.Resources.resources
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.csproj.GenerateResource.cache
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.csproj.CoreCompileInputs.cache
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.exe
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.pdb
+D:\Escritorio\prjChalimondRegistroContactos\obj\Debug\prjChalimondRegistroContactos.exe.config
