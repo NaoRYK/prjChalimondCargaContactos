@@ -27,8 +27,19 @@ namespace prjChalimondRegistroContactos
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            if(txtContactName.Text == "" || maskPhoneNumber.Text == "")
+            {
+                MessageBox.Show("Rellene los campos");
+            }
+            else
+            {
+                createContact();
+            }
+           
+        }
 
-            
+        private void createContact()
+        {
             contactName = txtContactName.Text;
             contactPhone = maskPhoneNumber.Text;
             contactNumber++;
@@ -37,7 +48,9 @@ namespace prjChalimondRegistroContactos
             maskPhoneNumber.Clear();
 
             lstContacts.Items.Add($"{contactNumber}) {contactName} - {contactPhone}");
-           
+
+            txtContactName.Focus();
+
         }
 
         private void formCargarContacto_Load(object sender, EventArgs e)
