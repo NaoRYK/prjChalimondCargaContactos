@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formCargarContacto));
             this.lblTitle = new System.Windows.Forms.Label();
             this.maskPhoneNumber = new System.Windows.Forms.MaskedTextBox();
             this.txtContactName = new System.Windows.Forms.TextBox();
@@ -121,6 +122,7 @@
             this.Controls.Add(this.txtContactName);
             this.Controls.Add(this.maskPhoneNumber);
             this.Controls.Add(this.lblTitle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formCargarContacto";
             this.Text = "Cargar contactos";
             this.Load += new System.EventHandler(this.formCargarContacto_Load);
