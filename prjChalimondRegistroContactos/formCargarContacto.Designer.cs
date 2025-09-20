@@ -111,6 +111,7 @@
             // 
             // formCargarContacto
             // 
+            this.AcceptButton = this.btnSubmit;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(355, 276);
@@ -122,8 +123,10 @@
             this.Controls.Add(this.txtContactName);
             this.Controls.Add(this.maskPhoneNumber);
             this.Controls.Add(this.lblTitle);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formCargarContacto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cargar contactos";
             this.Load += new System.EventHandler(this.formCargarContacto_Load);
             this.ResumeLayout(false);
